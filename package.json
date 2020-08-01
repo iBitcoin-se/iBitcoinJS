@@ -1,0 +1,47 @@
+{
+  "name": "ibitcoin_js",
+  "description": "iBitcoin.se API wrapper for node.js - receive & send cryptocurrencies on your app",
+  "keywords": [
+    "ibitcoin.se",
+    "ibitcoin",
+    "bitcoin",
+    "litecoin",
+    "bitcoin cash",
+    "bitcoin satoshi vision",
+    "wallet"
+  ],
+  "version": "1.0.0",
+  "preferGlobal": false,
+  "homepage": "https://github.com/iBitcoin-se/iBitcoinJS",
+  "author": "Adam <adam@ibitcoin.se>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iBitcoin-se/iBitcoinJS"
+  },
+  "bugs": {
+    "url": "https://github.com/iBitcoin-se/iBitcoinJS/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/ibitcoin.js",
+  "dependencies": {
+    "request": "=2.88.0"
+  },
+  "devDependencies": {
+    "vows": "^0.8.3"
+  },
+  "engines": {
+    "node": ">=5.10.1",
+    "npm": ">=3.8.3"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/vows --spec test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/iBitcoin-se/iBitcoinJS/raw/master/LICENSE"
+    }
+  ]
+}
