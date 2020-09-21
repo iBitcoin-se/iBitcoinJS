@@ -49,6 +49,5 @@
       "url": "https://github.com/iBitcoin-se/iBitcoinJS/raw/master/LICENSE"
     }
   ],
-  "license": "ISC",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "license": "ISC"
 }

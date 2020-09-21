@@ -1,4 +1,4 @@
-const iBitcoin = require('../lib/ibitcoin');
+const iBitcoin = require('ibitcoin-se-api');
 
 process.env.API_KEY = 'YOUR_API_KEY_FROM_YOUR_IBITCOIN_WALLET';
 process.env.SHOW_ERROR_TO_USER = 'false';
