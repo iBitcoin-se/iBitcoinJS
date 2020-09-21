@@ -9,7 +9,7 @@ up :)
 
 Install the package using npm:
 
-    $ npm install ibitcoin
+    $ npm install ibitcoin-se-api --save
     
 
 ## Usage

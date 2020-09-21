@@ -1,5 +1,5 @@
 {
-  "name": "ibitcoin_js",
+  "name": "ibitcoin-se-api",
   "description": "iBitcoin.se API wrapper for node.js - receive & send cryptocurrencies on your app",
   "keywords": [
     "ibitcoin.se",
@@ -8,21 +8,25 @@
     "litecoin",
     "bitcoin cash",
     "bitcoin satoshi vision",
-    "wallet"
+    "wallet",
+    "receive bitcoin",
+    "send bitcoin",
+    "cryptocurrency"
   ],
-  "version": "1.0.0",
+  "version": "2.0.0",
   "preferGlobal": false,
   "homepage": "https://github.com/iBitcoin-se/iBitcoinJS",
   "author": "Adam <adam@ibitcoin.se>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iBitcoin-se/iBitcoinJS"
+    "url": "git+https://github.com/iBitcoin-se/iBitcoinJS.git"
   },
   "bugs": {
     "url": "https://github.com/iBitcoin-se/iBitcoinJS/issues"
   },
   "directories": {
-    "lib": "./lib"
+    "example": "examples",
+    "lib": "lib"
   },
   "main": "./lib/ibitcoin.js",
   "dependencies": {
@@ -36,12 +40,15 @@
     "npm": ">=3.8.3"
   },
   "scripts": {
-    "test": "node_modules/.bin/vows --spec test/*.js"
+    "version" : "git add -A",
+    "postversion" : "git push && git push --tags"
   },
   "licenses": [
     {
       "type": "MIT",
       "url": "https://github.com/iBitcoin-se/iBitcoinJS/raw/master/LICENSE"
     }
-  ]
+  ],
+  "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
