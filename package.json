@@ -13,7 +13,7 @@
     "send bitcoin",
     "cryptocurrency"
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "preferGlobal": false,
   "homepage": "https://github.com/iBitcoin-se/iBitcoinJS",
   "author": "Adam <adam@ibitcoin.se>",

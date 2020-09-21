@@ -18,7 +18,7 @@ It's super easy to get started. In your node shell, do:
 
 ```
 const iBitcoin = require('ibitcoin-se-api');
-
+ 
    process.env.API_KEY = 'YOUR_API_KEY_FROM_YOUR_IBITCOIN_WALLET';
    process.env.SHOW_ERROR_TO_USER = 'false';
    process.env.API_LINK = 'https://backend.ibitcoin.se/api/';
